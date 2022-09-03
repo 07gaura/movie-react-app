@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-class{
+  justify-content: left;
+  text-align: left;
+  padding: 10px;
+}
+
+.custom-col{
+  border-radius: 10px;
+  background-color: rgba(32, 32, 32, 0.507);
+  margin: 5px;
+  padding-left: 0;
+  padding-right:0; 
+  transition: transform .2s;
+}
+
+.custom-col img{
+  padding: 0;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0;
+  object-fit: cover;
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+.custom-class1 img{
+  width: 100%;
+  height: 800px;
+  opacity: 0.8;
+}
+
+.custom-col:hover{
+  display: block;
+  transform: scale(1.1);
+}
+
+.custom-inner-class1{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  overflow: hidden;
+}
+
+.custom-inner-class1 .p1{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.custom-inner-class1 .p2{
+  width: 45%;
+  height: 220px;
+  font-size: 18px;
+  font-weight: 800;
+  overflow: hidden;
+}
+.custom-cont{
+  position: absolute;
+  z-index: 100;
+  left: 5%;
+  box-shadow: 10px -10px 100px 150px rgb(0, 0, 0);
+}
